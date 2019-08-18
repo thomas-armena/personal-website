@@ -1,33 +1,39 @@
-.App {
-  text-align: center;
+.header {
+  width: 100%;
+  height: 95vh;
+  background-color: #090300;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.nav {
+  width: 100%;
+  height: 5vh;
+  background-color: #090300;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.sticky {
+  width:100%;
+  position: fixed;
+  top: -95vh;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* "terminal.background":"#090300",
+"terminal.foreground":"#A5A2A2",
+"terminalCursor.background":"#A5A2A2",
+"terminalCursor.foreground":"#A5A2A2",
+"terminal.ansiBlack":"#090300",
+"terminal.ansiBlue":"#01A0E4",
+"terminal.ansiBrightBlack":"#5C5855",
+"terminal.ansiBrightBlue":"#01A0E4",
+"terminal.ansiBrightCyan":"#B5E4F4",
+"terminal.ansiBrightGreen":"#01A252",
+"terminal.ansiBrightMagenta":"#A16A94",
+"terminal.ansiBrightRed":"#DB2D20",
+"terminal.ansiBrightWhite":"#F7F7F7",
+"terminal.ansiBrightYellow":"#FDED02",
+"terminal.ansiCyan":"#B5E4F4",
+"terminal.ansiGreen":"#01A252",
+"terminal.ansiMagenta":"#A16A94",
+"terminal.ansiRed":"#DB2D20",
+"terminal.ansiWhite":"#A5A2A2",
+"terminal.ansiYellow":"#FDED02" */
