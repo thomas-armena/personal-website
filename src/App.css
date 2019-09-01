@@ -10,10 +10,14 @@
   background-color: #090300;
 }
 
+.sticky + .content {
+  padding-top: 5vh;
+}
+
 .sticky {
   width:100%;
   position: fixed;
-  top: -95vh;
+  top: 0;
 }
 
 
