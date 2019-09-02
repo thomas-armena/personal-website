@@ -36,7 +36,7 @@ const ScrollPrompt = () => {
     return (
         <div className='header-scroll-prompt'>
             Scroll Down <br/>
-            <i class="material-icons">keyboard_arrow_down</i>
+            <i className="material-icons">keyboard_arrow_down</i>
         </div>
     )
 }
