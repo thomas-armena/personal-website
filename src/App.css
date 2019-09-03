@@ -13,7 +13,7 @@ h1 { font-family: Consolas, monaco, monospace; font-size: 24px; font-style: norm
   position: relative;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 960px) {
   .header {
     height: 100vh;
   }
@@ -31,7 +31,7 @@ h1 { font-family: Consolas, monaco, monospace; font-size: 24px; font-style: norm
   font-size: 4vw;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 960px) {
   .header-name {
     margin-bottom: 3vh;
     font-size: 8vw;
@@ -42,7 +42,7 @@ h1 { font-family: Consolas, monaco, monospace; font-size: 24px; font-style: norm
   font-size: 2vw;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 960px) {
   .header-tagline {
     font-size: 5vw;
   }
@@ -62,7 +62,7 @@ h1 { font-family: Consolas, monaco, monospace; font-size: 24px; font-style: norm
   text-align: center;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 960px) {
   .header-scroll-prompt {
     font-size: 5vw;
   }
@@ -78,6 +78,7 @@ h1 { font-family: Consolas, monaco, monospace; font-size: 24px; font-style: norm
   height: 50px;
   background-color: #090300;
   color: #F7F7F7;
+  z-index: 10;
 }
 
 
@@ -124,11 +125,11 @@ h1 { font-family: Consolas, monaco, monospace; font-size: 24px; font-style: norm
   color: #DB2D20;
 }
 
-#nav-menu-button {
+.nav-menu-button {
   display: none;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 960px) {
   .nav-links {
     display: block;
     top: 50px;
@@ -156,6 +157,7 @@ h1 { font-family: Consolas, monaco, monospace; font-size: 24px; font-style: norm
   }
 
   .nav-menu-button {
+    display: block;
     top: -100%;
     position: absolute;
     font-size: 20px;
@@ -182,9 +184,10 @@ h1 { font-family: Consolas, monaco, monospace; font-size: 24px; font-style: norm
 .content {
   max-width: 1000px;
   margin: auto;
+  padding: 3vw;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 960px) {
   .content {
     padding: 5vw;
   }

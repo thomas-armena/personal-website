@@ -31,9 +31,9 @@ const Nav = () => {
 
             <div className={navLinksClassName}>
                 <a id='nav-about-me'>About Me</a>
-                <a id='nav-work-experience'>Work Experience</a>
                 <a id='nav-projects'>Projects</a>
-                <a id='nav-contact-me'>Contact Me</a>
+                <a id='nav-work-experience'>Work Experience</a>
+                <a id='nav-resume'>Resume</a>
             </div>
 
             <div className={navMenuButtonClassName} onClick={handleMenuClick} >

@@ -3,6 +3,7 @@ import React from 'react';
 const Projects = () => {
     return (
         <div>
+            <br/>
             <h1>Projects</h1>
             <hr/>
 
