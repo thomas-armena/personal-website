@@ -5,9 +5,11 @@ const WorkExperience = () => {
         <div>
             <br/>
             <h1>Work Experience</h1>
+            <hr/>
             <br/>
 
-            <h3>Contract Full Stack Developer - University of Toronto (Sep 2018 - Sep 2019)</h3>
+            <h3>Contract Full Stack Developer - University of Toronto </h3>
+            <aside>Sep 2018 - Sep 2019</aside>
             <ul>
                 <li>Developed an interactive learning website for a first year anatomy course</li>
                 <li>Designed a RESTful API that handles student authentication and progress in Golang and using MongoDB</li>
@@ -17,7 +19,8 @@ const WorkExperience = () => {
             
 
 
-            <h3>Software Developer (Co-op) - CIBC Innovation Lab (Jan-Aug 2019)</h3>
+            <h3>Software Developer (Co-op) - CIBC Innovation Lab </h3>
+            <aside>Jan-Aug 2019</aside>
             <ul>
                 <li>
                     Created a system of biometric camera’s that collects and stores facial data into a MySQL
@@ -46,11 +49,13 @@ const WorkExperience = () => {
                 </li>
             </ul>
 
-            <h3>Application Developer (Co-op) - Canadian Imperial Bank of Commerce (Sep-Dec 2018)</h3>
+            <h3>Application Developer (Co-op) - Canadian Imperial Bank of Commerce </h3>
+            <aside>Sep-Dec 2018</aside>
             <ul>
                 <li>Automated banking processes in a z/OS system using REXX and JCL</li>
             </ul>
-            <h3>Innovation Engineer and QA Automation (Co-op) - World Vision Canada (May-Aug 2018)</h3>
+            <h3>Innovation Engineer and QA Automation (Co-op) - World Vision Canada </h3>
+            <aside>May-Aug 2018</aside>
             <ul>
                 <li>Created a hand gesture controlled minigame alongside 2 other developers in Unity (C
                 sharp) using LEAP (hand motion detector) in order promote an upcoming Netflix
