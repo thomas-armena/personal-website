@@ -57,7 +57,7 @@ h1 { font-family: Consolas, monaco, monospace; font-size: 24px; font-style: norm
   bottom: 0%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #01A0E4;
+  color: gray;
   font-size: 1vw;
   text-align: center;
 }
@@ -197,6 +197,15 @@ h1 { font-family: Consolas, monaco, monospace; font-size: 24px; font-style: norm
 aside {
   font-style: italic;
   color:gray;
+}
+
+
+.about-me i {
+  font-size: 120%;
+}
+
+.about-me a {
+  text-decoration: none;
 }
 
 
