@@ -16,7 +16,9 @@ const Nav = () => {
     }, [])
 
     const navClassName = isSticky ? 'nav sticky' : 'nav';
-    const navLinksClassName = isSticky && isMenuToggled ? 'nav-links show' : 'nav-links';
+    const navLinksClassName = isSticky && isMenuToggled ? 'nav-links nav-links-show' : 'nav-links';
+    const navNameClassName = isSticky ? 'nav-name nav-name-show' : 'nav-name'; 
+    const navMenuButtonClassName = isSticky ? 'nav-menu-button nav-menu-button-show' : 'nav-menu-button';
 
     const handleMenuClick = () => {
         setMenuToggle(!isMenuToggled);
@@ -25,7 +27,7 @@ const Nav = () => {
     return (
         <div ref={navRef} className={navClassName}>
 
-            <div id='nav-name'><b>></b> Thomas Armena</div>
+            <div className={navNameClassName}><b>></b> Thomas Armena</div>
 
             <div className={navLinksClassName}>
                 <a id='nav-about-me'>About Me</a>
@@ -34,7 +36,7 @@ const Nav = () => {
                 <a id='nav-contact-me'>Contact Me</a>
             </div>
 
-            <div id='nav-menu-button' onClick={handleMenuClick} >
+            <div className={navMenuButtonClassName} onClick={handleMenuClick} >
                 <i className="material-icons">menu</i>
             </div>
            

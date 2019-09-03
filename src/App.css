@@ -1,5 +1,7 @@
 
+/*
 h1 { font-family: Consolas, monaco, monospace; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: Consolas, monaco, monospace; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: Consolas, monaco, monospace; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: Consolas, monaco, monospace; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: Consolas, monaco, monospace; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }
+*/
 
 /***** Header *****/
 
@@ -103,13 +105,22 @@ h1 { font-family: Consolas, monaco, monospace; font-size: 24px; font-style: norm
   top: 0;
 }
 
-#nav-name {
+.nav-name {
+  display: block;
+  top: -100%;
   position: absolute;
   padding: 15px;
   font-size: 20px;
+  transition: top 0.7s;
+  -webkit-transition: top 0.7s; /* For Safari 3.1 to 6.0 */
 }
 
-#nav-name b {
+.nav-name-show {
+  display: block;
+  top: 0;
+}
+
+.nav-name b {
   color: #DB2D20;
 }
 
@@ -133,7 +144,7 @@ h1 { font-family: Consolas, monaco, monospace; font-size: 24px; font-style: norm
 
   }
 
-  .show {
+  .nav-links-show {
     left: 0;
   }
 
@@ -144,23 +155,33 @@ h1 { font-family: Consolas, monaco, monospace; font-size: 24px; font-style: norm
     margin: 0;
   }
 
-  #nav-menu-button {
-    display: none;
+  .nav-menu-button {
+    top: -100%;
     position: absolute;
     font-size: 20px;
     padding: 15px;
     right: 0px;
     cursor: pointer;
-
+    transition: top 0.7s;
+    -webkit-transition: top 0.7s; /* For Safari 3.1 to 6.0 */
   }
 
-  .sticky #nav-menu-button {
-    display: inline-block;
+  .nav-menu-button-show {
+    top: 0;
   }
 
   #nav-menu-button i {
     cursor: pointer;
   }
+}
+
+
+
+/***** Content *****/
+
+.content {
+  max-width: 1000px;
+  margin: auto;
 }
 
 
