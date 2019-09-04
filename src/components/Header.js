@@ -1,4 +1,5 @@
-import React, { useRef, useEffect, useState } from 'react';
+import React from 'react';
+import TerminalText from './TerminalText';
 
 const Header = () => {
 
@@ -27,7 +28,7 @@ const Name = () => {
 const Tagline = () => {
     return (
         <div className='header-tagline'>
-            <b>></b> Software Engineer
+            <TerminalText text='Software Developer' />
         </div>
     )
 }

@@ -1,8 +1,9 @@
 import React from 'react';
+import { Element } from 'react-scroll';
 
 const Projects = () => {
     return (
-        <div>
+        <Element name='projects'>
             <br/>
             <h1>Projects</h1>
             <hr/>
@@ -44,7 +45,7 @@ const Projects = () => {
                 <li>Rendered the plant in the terminal only using ASCII characters</li>
             </ul>
             
-        </div>
+        </Element>
     );
 }
 

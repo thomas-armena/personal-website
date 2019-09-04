@@ -1,8 +1,10 @@
 import React from 'react';
+import { Element } from 'react-scroll';
+
 
 const WorkExperience = () => {
     return (
-        <div>
+        <Element name="work-experience">
             <br/>
             <h1>Work Experience</h1>
             <hr/>
@@ -65,7 +67,7 @@ const WorkExperience = () => {
                 CI/CD pipeline</li>
             </ul>
 
-        </div>
+        </Element>
     );
 }
 
