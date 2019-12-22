@@ -1,12 +1,13 @@
 import React from 'react';
 import { Element } from 'react-scroll';
+import TerminalText from '../components/TerminalText';
 
 
 const WorkExperience = () => {
     return (
         <Element name="work-experience">
             <br/>
-            <h1>Work Experience</h1>
+            <h1><TerminalText text='Work Experience'/></h1>
             <hr/>
             <br/>
 
@@ -18,7 +19,7 @@ const WorkExperience = () => {
                 <li>Created various exercises in React such as drawing ligaments on 3D models, drag and drop choices, etc</li>
                 <li>Implemented scalable state management for the frontend using redux</li>
             </ul>
-            
+            <img className='pic' src='kinundrum.png' />
 
 
             <h3>Software Developer (Co-op) - CIBC Innovation Lab </h3>

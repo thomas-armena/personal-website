@@ -111,18 +111,10 @@ h1 { font-family: Consolas, monaco, monospace; font-size: 24px; font-style: norm
 
 .nav-name {
   display: block;
-  top: -100%;
   position: absolute;
   padding: 15px;
   font-size: 20px;
   cursor: pointer;
-  transition: top 0.7s;
-  -webkit-transition: top 0.7s; /* For Safari 3.1 to 6.0 */
-}
-
-.nav-name-show {
-  display: block;
-  top: 0;
 }
 
 .nav-name b {
@@ -146,7 +138,6 @@ h1 { font-family: Consolas, monaco, monospace; font-size: 24px; font-style: norm
     left: 100vh;
     transition: left 0.7s;
     -webkit-transition: left 0.7s; /* For Safari 3.1 to 6.0 */
-
   }
 
   .nav-links-show {
@@ -164,24 +155,22 @@ h1 { font-family: Consolas, monaco, monospace; font-size: 24px; font-style: norm
 
   .nav-menu-button {
     display: block;
-    top: -100%;
+    top: 0;
     position: absolute;
-    font-size: 20px;
-    padding: 15px;
+    font-size: 30px;
+    padding: 5px;
+    padding-right: 10px;
     right: 0px;
     cursor: pointer;
     transition: top 0.7s;
     -webkit-transition: top 0.7s; /* For Safari 3.1 to 6.0 */
   }
 
-  .nav-menu-button-show {
-    top: 0;
-  }
-
   #nav-menu-button i {
     cursor: pointer;
   }
 }
+
 
 
 /***** Terminal Text *****/
@@ -209,9 +198,6 @@ h1 { font-family: Consolas, monaco, monospace; font-size: 24px; font-style: norm
     padding-right: 5vw;
   }
 
-  h1 {
-    text-align: center;
-  }
 }
 
 aside {
@@ -228,7 +214,16 @@ aside {
   text-decoration: none;
 }
 
+.pic {
+  width: 100%;
+}
 
+.pic-phone {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  padding: 5%; 
+}
 
 /* "terminal.background":"#090300",
 "terminal.foreground":"#A5A2A2",

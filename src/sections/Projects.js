@@ -1,11 +1,12 @@
 import React from 'react';
 import { Element } from 'react-scroll';
+import TerminalText from '../components/TerminalText';
 
 const Projects = () => {
     return (
         <Element name='projects'>
             <br/>
-            <h1>Projects</h1>
+            <h1><TerminalText text='Projects'/></h1>
             <hr/>
 
             <h3>Chess Dash</h3>
@@ -14,6 +15,8 @@ const Projects = () => {
                 <li>Designed an algorithm which creates unlimited randomly-generated puzzles (Dart)</li>
                 <li>Created a responsive mobile UI using Google’s Flutter UI kit</li>
             </ul>
+            <img className='pic-phone' src='chess-dash-menu.png' />
+            <img className='pic-phone' src='chess-dash-gameplay.png' />
             <h3>Postra</h3>
             A web application for making digital collages and sharing them online
             <ul>
@@ -22,6 +25,7 @@ const Projects = () => {
                 <li>Created a backend service to store images and collage layouts, aswell as handle user
                 authentication (node, express, mongo)</li>
             </ul>
+            <img className='pic' src='postra.png' />
             <h3>Chaos</h3>
             1st place submission for a game programming competition (Rogue-like top down shooter)
             <ul>
@@ -38,6 +42,7 @@ const Projects = () => {
                 <li>Leveraged open banking APIs to obtain transactional data to base advice off of</li>
                 <li>Placed top 5 out of 25 teams</li>
             </ul>
+            <img className='pic-phone' src='finstagram.png' />
             <h3>Git Plant</h3>
             Your own linux terminal plant that grows as long as you stay active on Github
             <ul>

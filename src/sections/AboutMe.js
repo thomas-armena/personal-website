@@ -1,12 +1,13 @@
 import React from 'react';
 import { Element } from 'react-scroll';
+import TerminalText from '../components/TerminalText';
 
 const AboutMe = () => {
 
     return (
         <Element name='about-me' className='about-me'>
             <br/><br/><br/>
-            <h1>About Me</h1>
+            <h1><TerminalText text='About Me'/></h1>
             <hr/>
 
             <p>
@@ -31,7 +32,7 @@ const AboutMe = () => {
                 <br/><br/>
 
                 <i className="fa fa-file"></i> 
-                <a href="/resume.pdf" download="thomas-armena-resume">    download my resume </a>
+                <a href="/ThomasResume.pdf" download="thomas-armena-resume">    download my resume </a>
 
                 
                 

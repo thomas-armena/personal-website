@@ -1,27 +1,11 @@
-import React, { useEffect, useState, useRef } from 'react';
+import React, { useState, useRef } from 'react';
 import { Link, animateScroll as scroll } from "react-scroll";
-import TerminalText from './TerminalText';
-
 
 const Nav = () => {
     const navRef = useRef(null);
 
-    const [ isSticky, setIsSticky ] = useState(false);
     const [ isMenuToggled, setMenuToggle ] = useState(false);
-
-    useEffect(()=>{
-        const sticky = navRef.current.offsetTop;
-        window.onscroll = ()=>{
-            const isSticky = window.pageYOffset >= sticky;
-            setIsSticky(isSticky);
-            if (!isSticky) setMenuToggle(false);
-        }
-    }, []);
-
-    const navClassName = isSticky ? 'nav sticky' : 'nav';
-    const navLinksClassName = isSticky && isMenuToggled ? 'nav-links nav-links-show' : 'nav-links';
-    const navNameClassName = isSticky ? 'nav-name nav-name-show' : 'nav-name'; 
-    const navMenuButtonClassName = isSticky ? 'nav-menu-button nav-menu-button-show' : 'nav-menu-button';
+    const navLinksClassName = isMenuToggled ? 'nav-links nav-links-show' : 'nav-links';
 
     const handleMenuClick = () => {
         setMenuToggle(!isMenuToggled);
@@ -36,10 +20,10 @@ const Nav = () => {
     }
 
     return (
-        <div ref={navRef} className={navClassName}>
+        <div ref={navRef} className='nav sticky'>
 
-            <div className={navNameClassName} onClick={handleNamePress}>
-                <TerminalText text='Thomas Armena' />
+            <div className='nav-name' onClick={handleNamePress}>
+                Thomas Armena
             </div>
 
             <div className={navLinksClassName}>
@@ -52,10 +36,10 @@ const Nav = () => {
                 <Link className='nav-link' activeClass="active" to="work-experience" spy={true} smooth={true} offset={-20} duration={500} onClick={handleLinkPress}>
                     Work Experience
                 </Link>
-                <a id='nav-resume' href="/resume.pdf">Resume</a>
+                <a id='nav-resume' href="./ThomasResume.pdf">Resume</a>
             </div>
 
-            <div className={navMenuButtonClassName} onClick={handleMenuClick} >
+            <div className='nav-menu-button' onClick={handleMenuClick} >
                 <i className="material-icons">menu</i>
             </div>
            
