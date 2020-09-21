@@ -215,14 +215,19 @@ aside {
 }
 
 .pic {
-  width: 100%;
+  width: 60%;
+  margin: 20px; 
+  border-radius: 8px;
+
+  box-shadow: 5px 10px 18px #888888;
 }
 
 .pic-phone {
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
-  padding: 5%; 
+  width: 30%;
+  margin: 20px; 
+  border-radius: 8px;
+
+  box-shadow: 5px 10px 18px #888888;
 }
 
 /* "terminal.background":"#090300",

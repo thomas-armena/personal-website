@@ -30,13 +30,13 @@ const Nav = () => {
                 <Link className='nav-link' activeClass="active" to="about-me" spy={true} smooth={true} offset={-20} duration={500} onClick={handleLinkPress}>
                     About Me
                 </Link>
-                <Link className='nav-link' activeClass="active" to="projects" spy={true} smooth={true} offset={-20} duration={500} onClick={handleLinkPress}>
-                    Projects
-                </Link>
                 <Link className='nav-link' activeClass="active" to="work-experience" spy={true} smooth={true} offset={-20} duration={500} onClick={handleLinkPress}>
                     Work Experience
                 </Link>
-                <a id='nav-resume' href="./ThomasResume.pdf">Resume</a>
+                <Link className='nav-link' activeClass="active" to="projects" spy={true} smooth={true} offset={-20} duration={500} onClick={handleLinkPress}>
+                    Projects
+                </Link>
+                <a id='nav-resume' href="./ThomasResume2020.pdf">Resume</a>
             </div>
 
             <div className='nav-menu-button' onClick={handleMenuClick} >

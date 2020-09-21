@@ -11,6 +11,37 @@ const WorkExperience = () => {
             <hr/>
             <br/>
 
+            <h3>Development Lead - MyPalate - <a href="https://mypalate.ca">mypalate.ca</a></h3> 
+            <aside>Jan 2020 - Present</aside>
+            <ul>
+                <li>
+                    <b>Main coding contributor</b> to mobile recipe app (<b>Flutter</b>), backend service (<b>Golang, PostgreSQL</b>),
+                    content management platform (<b>React</b>), and continuous integration/deployment (<b>AWS Lightsail, Github Actions, Docker</b>)
+                </li>
+                <li>
+                    Managed a team of volunteer contributors, lead sprint meetings, allocated tasks, facilitated code review, 
+                    and made major technical decisions
+                </li>
+            </ul>
+            <img className='pic-phone' src='mp-discover.gif'/>
+            <img className='pic-phone' src='mp-creator.gif' />
+            <img className='pic' src='mp-console.png' />
+
+            <h3>Technical Lead - Llettonna - <a href="https://momsovermatter.ca">momsovermatter.ca</a></h3> 
+            <aside>May 2020 - Sep 2020</aside>
+            <ul>
+                <li>
+                    Lead and contributed to development of a survey web app (<b>React</b>) and mobile iOS app (<b>Swift</b>) for postpartum mothers,
+                    as well as the backend for collecting and exporting user and survey data (<b>Node.js</b>)
+                </li>
+                <li>
+                    Made major technical decisions and worked with project manager to plan sprints and allocate tasks.
+                </li>
+            </ul>
+
+            <img className='pic-phone' src='momapp.gif' />
+            <img className='pic' src='mom-main.png' />
+
             <h3>Contract Full Stack Developer - University of Toronto </h3>
             <aside>Sep 2018 - Sep 2019</aside>
             <ul>
@@ -26,13 +57,13 @@ const WorkExperience = () => {
             <aside>Jan-Aug 2019</aside>
             <ul>
                 <li>
-                    Created a system of biometric camera’s that collects and stores facial data into a MySQL
-                    database and can be controlled remotely (raspberry pis and amazon web services)
+                    Created a system of <b>biometric camera’s</b> that <b>collects and stores facial data</b> into a MySQL
+                        database and can be controlled remotely (<b>raspberry pis</b> and <b>amazon web services</b>)
                 </li>
                 <li>
                     Worked with one other co-op to prototype a smart device station that allows you to connect
-                    and use peripheral devices (printers, scanners, card readers) via bluetooth proximity and
-                    secured wireless connection (node and electron)
+                    and use peripheral devices (printers, scanners, card readers) via <b>bluetooth proximity</b> and
+                    secured wireless connection (<b>node and electron</b>)
                     <ul>
                         <li>Demoed this project to stakeholders which included VPs and seniors of a few departments</li>
                         <li>Held meetings to handoff knowledge of the architecture and code to the engineers that will
@@ -45,7 +76,7 @@ const WorkExperience = () => {
                     <ul>
                         <li>Created the ”hearing” capabilities of the AI, leveraging mic arrays attached to a raspberry
                         pi to capture audio and convert it to text using various AWS APIs</li>
-                        <li>Contributed to the high-level design architecture of the deep learning model used for
+                        <li><b>Contributed to the high-level design architecture of the deep learning model</b> used for
                         the AI, experimented with recurrent neural networks to see how they could be used to
                         leverage contextual information to make decisions</li>
                     </ul>

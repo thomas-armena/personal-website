@@ -32,7 +32,7 @@ const AboutMe = () => {
                 <br/><br/>
 
                 <i className="fa fa-file"></i> 
-                <a href="/ThomasResume.pdf" download="thomas-armena-resume">    download my resume </a>
+                <a href="/ThomasResume2020.pdf" download="thomas-armena-resume">    download my resume </a>
 
                 
                 

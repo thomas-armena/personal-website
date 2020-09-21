@@ -11,8 +11,8 @@ function App() {
       <Nav/>
       <div className='content'>
         <AboutMe />
-        <Projects />
         <WorkExperience />
+        <Projects />
       </div>
     </div>
   );
